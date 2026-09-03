@@ -1,0 +1,12 @@
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+
+# Node (only used by the optional local preview server)
+node_modules/
+npm-debug.log*
+
+# Deploy tooling
+.vercel
