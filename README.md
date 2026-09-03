@@ -13,6 +13,19 @@ node serve.js
 Then open <http://localhost:4300>. (`serve.js` is only a convenience for local preview —
 you can also just double-click `index.html`.)
 
+## Deploying
+
+The repo is a zero-config static site: `index.html` sits at the root and there is no
+`package.json`, so no build step runs. `vercel.json` only sets long cache headers for
+`/assets`.
+
+**Vercel (via GitHub):** import `webdemosite0/vesengineering` at <https://vercel.com/new>
+with these settings — Framework Preset **Other**, Root Directory **`./`**, and Build
+Command, Output Directory and Install Command all left **empty**. Once imported, every push
+to `main` deploys automatically.
+
+Any other static host works the same way: serve the repo root as-is.
+
 ## Brand
 
 | | |
