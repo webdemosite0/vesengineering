@@ -79,7 +79,7 @@ profile's dark cover.
    "Add your office address here" and "Add your contact number here"). Add them to the top bar and
    footer too if you want.
 2. **Enquiry form** — with no backend, submitting opens the visitor's mail client addressed to
-   `info@vesengineering.co`. To collect submissions properly, replace the submit
+   `info@ves-eng.com`. To collect submissions properly, replace the submit
    handler at the bottom of `assets/js/main.js` with a `fetch()` POST to a form service
    (Formspree, Basin, Netlify Forms) or your own endpoint.
 3. **Header/footer edits apply per file** — that markup is duplicated in each page, so a change

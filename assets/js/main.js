@@ -62,7 +62,7 @@
       ].join('\n');
 
       window.location.href =
-        'mailto:info@vesengineering.co' +
+        'mailto:info@ves-eng.com' +
         '?subject=' + encodeURIComponent('Project enquiry - ' + (data.get('name') || 'Website')) +
         '&body=' + encodeURIComponent(body);
 
